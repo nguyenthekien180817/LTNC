@@ -19,7 +19,7 @@ int head_x, head_y, fruitX, fruitY, score;
 int tailX[100], tailY[100];
 int tail_length;
 
-void TextColor (int color)
+void TextColor (int color) // hàm đổi màu text tham khảo của https://www.youtube.com/watch?v=Lif3FD6Bqqg
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE) , color);
 }
@@ -155,7 +155,7 @@ void movement() // logic di chuyển
 }
 
 
-void tail_appearence() // hàm đệ quy hiện hiện đuôi
+void tail_appearence() // hàm đệ quy hiện đuôi
 {
     int prevX = tailX[0];
 	int prevY = tailY[0];
@@ -207,7 +207,7 @@ void wall_collision_detection() // nhận biết va chạm với tường
 }
 
 
-void through_wall() // hàm giúp rắn đi xuốt hiện sau khi đi qua tường
+void through_wall() // hàm giúp rắn đi xuất hiện sau khi đi qua tường
 {
     if (head_x >= screenWidth)
     {
@@ -229,7 +229,7 @@ void through_wall() // hàm giúp rắn đi xuốt hiện sau khi đi qua tườ
 }
 
 
-char input_game_type()
+char input_game_type() // chọn chế độ chơi
 {
     TextColor(11);
     for(int i=0; i<10; i++)
