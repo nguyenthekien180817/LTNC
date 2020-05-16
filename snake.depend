@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1588843932 source:c:\users\admin\desktop\snakeltnc\snake\untitled1.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+
+1589192655 source:c:\users\admin\desktop\snakeltnc\snake\drawscreen.cpp
+	"drawScreen.h"
+	"general.h"
+	<iostream>
+
+1589620981 c:\users\admin\desktop\snakeltnc\snake\general.h
+	<windows.h>
+	<ctime>
+	<iostream>
+	"keyHandling.h"
+
+1589203030 source:c:\users\admin\desktop\snakeltnc\snake\general.cpp
+
+1589192418 c:\users\admin\desktop\snakeltnc\snake\drawscreen.h
+	"general.h"
+
+1589620879 source:c:\users\admin\desktop\snakeltnc\snake\main.cpp
+	"general.h"
+	"keyHandling.h"
+	"replay.h"
+
+1589365103 c:\users\admin\desktop\snakeltnc\snake\keyhandling.h
+	<conio.h>
+
+1589364918 source:c:\users\admin\desktop\snakeltnc\snake\chooselevel.cpp
+
+1589620456 source:c:\users\admin\desktop\snakeltnc\snake\replay.cpp
+	"replay.h"
+
+1589381017 c:\users\admin\desktop\snakeltnc\snake\replay.h
+	<iostream>
+
+1589532401 source:c:\users\admin\desktop\snakeltnc\snake\greeting.cpp
+	"greeting.h"
+
+1589532401 c:\users\admin\desktop\snakeltnc\snake\greeting.h
+	<iostream>
+	<string>
+	<windows.h>
+
+1589618454 source:c:\users\admin\desktop\snakeltnc\snake\howtoplay.cpp
+	"howtoplay.h"
+
+1589618338 c:\users\admin\desktop\snakeltnc\snake\howtoplay.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+
+1589620356 c:\users\admin\desktop\snakeltnc\snake\textcolor.h
+	<conio.h>
+	<windows.h>
+
+1589620340 source:c:\users\admin\desktop\snakeltnc\snake\textcolor.cpp
+	"textcolor.h"
+
