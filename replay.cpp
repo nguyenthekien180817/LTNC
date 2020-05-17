@@ -9,8 +9,6 @@ bool replay(char ask)
     }
     else
     {
-        if(ask == 'n' || ask == 'n')
-        {
             system("cls");
 
             for(int i=0; i<10; i++)
@@ -29,6 +27,5 @@ bool replay(char ask)
                 cout<<endl;
             }
         return true;
-        }
     }
 }
