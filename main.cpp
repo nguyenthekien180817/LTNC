@@ -44,7 +44,7 @@ int main()
         cout<<" ";
     }
     TextColor(11);
-    cout << "You are dead. Press Y to play again or press N to quit";
+    cout << "You are dead. Press Y to play again or press any key to quit";
     ask = getch();
     if(ask == 'Y' || ask == 'y')
     {
