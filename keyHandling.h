@@ -15,13 +15,25 @@ void key_pressed()
 		case 'a':
 			dir = LEFT;
 			break;
+		case 'A':
+			dir = LEFT;
+			break;		
 		case 'd':
+			dir = RIGHT;
+			break;
+		case 'D':
 			dir = RIGHT;
 			break;
 		case 'w':
 			dir = UP;
 			break;
+		case 'W':
+			dir = UP;
+			break;
 		case 's':
+			dir = DOWN;
+			break;
+		case 'S':
 			dir = DOWN;
 			break;
 		}
