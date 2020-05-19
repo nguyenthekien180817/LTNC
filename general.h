@@ -155,7 +155,7 @@ void movement() // logic di chuyển
 }
 
 
-void tail_appearence() // hàm đệ quy hiện đuôi
+void tail_appearence() // hàm hiện đuôi
 {
     int prevX = tailX[0];
 	int prevY = tailY[0];
